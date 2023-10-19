@@ -5,7 +5,7 @@ const api = axios.create({
   baseURL: 'https://api.imgbb.com/1/',
 });
 
-export const getUploadedLink = async (image) => {
+export const getUploadedLink = async (image:string | null) => {
   if (!image) return null
 
   const formData = new FormData();

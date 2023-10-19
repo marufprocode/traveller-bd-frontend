@@ -43,7 +43,7 @@ export default function AdminSignin() {
         dispatch(setAuthData(data.data));
       }
     }
-  }, [isSuccess, data]);
+  }, [isSuccess, data, dispatch]);
 
   return (
     <div className="h-screen w-full grid place-content-center">

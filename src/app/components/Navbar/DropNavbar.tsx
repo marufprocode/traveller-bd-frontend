@@ -88,7 +88,7 @@ export default function DropNavbar() {
   return (
     <div
       className={`h-[100px]  duration-300 w-full shadow-lg bg-white  ${
-        showNavbar ? "fixed top-0" : "hidden"
+        showNavbar ? "fixed top-0 z-[1000]" : "hidden"
       }`}
     >
       <div className="flex justify-between w-[1200px] mx-auto items-center px-2">
